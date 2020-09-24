@@ -74,6 +74,7 @@ end
 With a model and the database set up, we can add a little data to help display
 our view later. Some seed data is provided in `db/seeds.rb`; just run `rails
 db:seed` and it should create four `Bird` records. You can always check these by
+exit
 running `rails console`, then use `Bird.all` to confirm these instances are appearing.
 
 Now we can configure a route and corresponding controller method. To keep things
